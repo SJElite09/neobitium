@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Build your package and book | Neobitium</title>
+<meta name="description" content="Choose your Neobitium services, see the price straight away and send a booking request. Sending it doesn&#x27;t charge you.">
+<meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1114" media="(prefers-color-scheme: dark)">
+<meta property="og:site_name" content="Neobitium">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Build your package and book | Neobitium">
+<meta property="og:description" content="Choose your Neobitium services, see the price straight away and send a booking request. Sending it doesn&#x27;t charge you.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Build your package and book | Neobitium">
+<meta name="twitter:description" content="Choose your Neobitium services, see the price straight away and send a booking request. Sending it doesn&#x27;t charge you.">
+<link rel="canonical" href="https://sjelite09.github.io/neobitium/package.html">
+<meta property="og:url" content="https://sjelite09.github.io/neobitium/package.html">
+<meta property="og:image" content="https://sjelite09.github.io/neobitium/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Neobitium: newer macOS for older Macs, Newark.">
+<meta name="twitter:image" content="https://sjelite09.github.io/neobitium/og-image.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M16 4.5a11.5 11.5 0 1 1-10.1 6" fill="none" stroke="var(--accent)" stroke-width="3.2" stroke-linecap="round"/><rect x="11.5" y="11.5" width="9" height="9" rx="1.5" fill="var(--ink)"/></svg><span>Neobitium</span></a><button class="nav-toggle btn btn-quiet" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav class="nav" id="site-nav" aria-label="Main"><ul><li><a href="services.html">Services</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a class="btn btn-primary" href="package.html" aria-current="page">Build your package</a></li></ul></nav></div></header>
+<main id="main" tabindex="-1">
+
+<section class="wrap page-head">
+<p class="eyebrow">Package builder and booking</p>
+<h1>Build your package.</h1>
+<p class="lead">Pick your services and see the price straight away. Then send me a booking request. Sending it doesn't charge you.</p>
+</section>
+
+<div class="wrap builder">
+<div class="builder-main">
+<noscript><p class="note"><span class="label">JavaScript is off</span>The price won't update on this page, and the form can't be sent without JavaScript, because the bot check needs it. Please email me at <a href="mailto:neobitium@outlook.com" data-contact-email>neobitium@outlook.com</a> instead and I'll confirm the price by email. The prices are on the <a href="pricing.html">pricing page</a>.</p></noscript>
+<form id="pkg-form" class="form" method="post" action="https://script.google.com/macros/s/AKfycbxnCdkjzJKddtDB_9DIbCkSwf2CuN2pP8wGNQgVY0YDxZNLy6KfVKvyHJtKMjOsq7nh9g/exec" target="_blank" rel="noopener" data-connected="true" data-thanks="thanks.html" accept-charset="utf-8">
+<div class="err-summary" id="err-summary" tabindex="-1" hidden></div>
+<p class="note" id="sent-note" role="status" tabindex="-1" hidden><span class="label">Request sent</span>Your request has opened in a new tab. If that tab says "Request received", you're done and can close it. If it shows a problem, come back to this tab, fix it and press send again. Your answers are still here. <a href="thanks.html" target="_blank" rel="noopener noreferrer">What happens next<span class="visually-hidden"> (opens in a new tab)</span></a>.</p>
+<p class="note" id="test-note" role="status" hidden><span class="label">Not connected yet</span>Everything you entered checks out, but this form isn't connected to the booking system yet, so nothing was sent. For now, email me at <a href="mailto:neobitium@outlook.com" data-contact-email>neobitium@outlook.com</a>.</p>
+
+<fieldset>
+<legend>1. How would you like to choose?</legend>
+<label class="opt"><input type="radio" name="mode" value="pick" checked><span><strong>I'll pick my services</strong><span class="opt-note">Choose from the list in step 2.</span></span><span class="price"></span></label>
+<label class="opt"><input type="radio" name="mode" value="full" id="mode-full"><span><strong>Go Full Neobitium</strong><span class="opt-note">Everything below, and £25 cheaper than buying it separately.</span></span><span class="price">£120</span></label>
+</fieldset>
+
+<fieldset id="services-fs" aria-describedby="e-svc">
+<legend>2. Services</legend>
+<label class="opt"><input type="checkbox" name="svc" id="svc-mac" value="mac" data-id="mac">
+<span><strong>Mac software upgrade</strong><span class="opt-note">A newer macOS, plus a basic test afterwards.</span><span class="opt-note lock-note" hidden>Included in Go Full Neobitium.</span></span>
+<span class="price">£80</span></label>
+<label class="opt"><input type="checkbox" name="svc" id="svc-backup" value="backup" data-id="backup">
+<span><strong>Back-up</strong><span class="opt-note">A full copy of your Mac before anything changes. Add-on.</span><span class="opt-note lock-note" hidden>Included in Go Full Neobitium.</span><span class="opt-note need-note" hidden>Tick the Mac software upgrade first. This is an add-on to it.</span></span>
+<span class="price">+ £20</span></label>
+<label class="opt"><input type="checkbox" name="svc" id="svc-ostest" value="ostest" data-id="ostest">
+<span><strong>Which macOS suits it best?</strong><span class="opt-note">Several versions installed and tested on the same drive. Add-on.</span><span class="opt-note lock-note" hidden>Included in Go Full Neobitium.</span><span class="opt-note need-note" hidden>Tick the Mac software upgrade first. This is an add-on to it.</span></span>
+<span class="price">+ £30</span></label>
+<label class="opt"><input type="checkbox" name="svc" id="svc-care" value="care" data-id="care">
+<span><strong>Peace-of-mind pack</strong><span class="opt-note">A full test and 14 days of aftercare. Add-on.</span><span class="opt-note lock-note" hidden>Included in Go Full Neobitium.</span><span class="opt-note need-note" hidden>Tick the Mac software upgrade first. This is an add-on to it.</span></span>
+<span class="price">+ £15</span></label>
+<p class="err" id="e-svc" hidden></p></fieldset>
+
+<div class="notes-stack">
+<div class="note"><span class="label">What I need from you</span>
+<ul><li>I need the password of an administrator account on your Mac.</li><li>If you'd rather not give me yours, create a new administrator account (in Users &amp; Groups, in System Settings or System Preferences) and give me that password. You can delete the account afterwards.</li><li>Please don't email passwords. I'll tell you how to pass it on when you book.</li></ul>
+</div>
+<div class="note"><span class="label">Before you book</span>
+<ul><li>Not sure which Mac you have? Open the Apple menu and choose About This Mac.</li><li>If your Mac can't take the upgrade, I refund you in full, not including postage costs.</li><li>Not sure it's worth it? <a href="services.html#not-worth-it">Here's when it isn't</a>.</li></ul>
+</div>
+</div>
+
+<fieldset>
+<legend>3. Your Mac</legend>
+<p class="hint">Not sure? Open the Apple menu and choose About This Mac.</p>
+<div class="field" id="f-mac_type"><label for="mac_type">What kind of Mac is it?</label>
+<select id="mac_type" name="mac_type" required data-err="Choose the kind of Mac" aria-describedby="e-mac_type"><option value="">Choose one</option><option value="iMac">iMac</option><option value="MacBook Pro">MacBook Pro</option><option value="MacBook Air">MacBook Air</option><option value="MacBook (12-inch)">MacBook (12-inch)</option><option value="Mac mini">Mac mini</option><option value="Mac Pro">Mac Pro</option><option value="Other or not sure">Other or not sure</option></select>
+<p class="err" id="e-mac_type" hidden></p></div>
+<div class="field" id="f-mac_model" role="group" aria-labelledby="mm-label" aria-describedby="h-mac_model">
+<span id="mm-label" class="field-label">Model and year</span>
+<p class="hint" id="h-mac_model">For example: 13-inch, Mid, 2012. It's shown under the name in About This Mac. Early, mid or late is only there on some Macs, so leave it if yours doesn't have one.</p>
+<div class="model-row">
+<select id="mac_size" name="mac_size" required data-err="Choose the screen size" aria-label="Screen size in inches" data-nosize="[&quot;Mac mini&quot;, &quot;Mac Pro&quot;, &quot;Other or not sure&quot;]"><option value="">Inches</option><option value="11-inch">11-inch</option><option value="12-inch">12-inch</option><option value="13-inch">13-inch</option><option value="14-inch">14-inch</option><option value="15-inch">15-inch</option><option value="16-inch">16-inch</option><option value="17-inch">17-inch</option><option value="20-inch">20-inch</option><option value="21.5-inch">21.5-inch</option><option value="22-inch">22-inch</option><option value="23-inch">23-inch</option><option value="24-inch">24-inch</option><option value="27-inch">27-inch</option></select>
+<select id="mac_period" name="mac_period" aria-label="Early, mid or late"><option value="">Early/mid/late</option><option value="Early">Early</option><option value="Mid">Mid</option><option value="Late">Late</option></select>
+<select id="mac_year" name="mac_year" required data-err="Choose the year of your Mac" aria-label="Year"><option value="">Year</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option></select>
+</div>
+<div class="model-errs"><p class="err" id="e-mac_size" hidden></p><p class="err" id="e-mac_year" hidden></p></div>
+<input type="hidden" name="mac_model" id="mac-model" value="">
+</div>
+<div class="field" id="f-mac_os"><label for="mac_os">The macOS or OS X it has now <span class="optional">(optional)</span></label>
+<select id="mac_os" name="mac_os" autocomplete="off"><option value="">Choose one</option><option value="Leopard">Leopard</option><option value="Snow Leopard">Snow Leopard</option><option value="Lion">Lion</option><option value="Mountain Lion">Mountain Lion</option><option value="Mavericks">Mavericks</option><option value="Yosemite">Yosemite</option><option value="El Capitan">El Capitan</option><option value="Sierra">Sierra</option><option value="High Sierra">High Sierra</option><option value="Mojave">Mojave</option><option value="Catalina">Catalina</option><option value="Big Sur">Big Sur</option><option value="Monterey">Monterey</option><option value="Ventura">Ventura</option><option value="Sonoma">Sonoma</option><option value="Not sure">Not sure</option></select></div>
+</fieldset>
+
+<fieldset>
+<legend>4. About you</legend>
+<div class="field" id="f-name"><label for="name">Your name</label><input id="name" name="name" type="text" aria-describedby="e-name" required data-err="Enter your name" autocomplete="name" maxlength="100"><p class="err" id="e-name" hidden></p></div>
+<div class="field" id="f-email"><label for="email">Your email address</label><p class="hint" id="h-email">I reply here to confirm your booking.</p><input id="email" name="email" type="email" aria-describedby="h-email e-email" required data-err="Enter an email address, like name@example.com" autocomplete="email" maxlength="200"><p class="err" id="e-email" hidden></p></div>
+<div class="field" id="f-phone"><label for="phone">Phone number <span class="optional">(optional)</span></label><p class="hint" id="h-phone">Only if you'd like me to be able to ring you.</p><input id="phone" name="phone" type="tel" aria-describedby="h-phone e-phone" autocomplete="tel" maxlength="30"><p class="err" id="e-phone" hidden></p></div>
+<div class="field" id="f-message"><label for="message">Anything else I should know? <span class="optional">(optional)</span></label>
+<p class="hint" id="h-message">Please don't write passwords or bank details here.</p>
+<textarea id="message" name="message" rows="4" maxlength="1000" aria-describedby="h-message"></textarea></div>
+</fieldset>
+
+<fieldset id="handover-fs" aria-describedby="e-handover">
+<legend>5. Getting your Mac to me</legend>
+<label class="opt"><input type="radio" name="handover" value="bring" required data-err="Choose how your Mac will get to me"><span><strong>I'll bring it to you</strong><span class="opt-note">I send you my address when I confirm your booking.</span></span><span class="price"></span></label>
+<label class="opt"><input type="radio" name="handover" value="post"><span><strong>I'll post it</strong><span class="opt-note">I send you my address when I confirm your booking. Postage and the return cost are in my confirmation email.</span></span><span class="price"></span></label>
+<p class="err" id="e-handover" hidden></p>
+</fieldset>
+
+<fieldset id="confirm-fs">
+<legend>6. Before you send</legend>
+<label class="check"><input type="checkbox" name="confirm_terms" value="yes" required data-err="Please agree to the terms and conditions and privacy notice" aria-describedby="e-confirm_terms"><span>I'm 18 or over, I own this Mac or have the owner's permission, and I've read the <a href="terms.html" target="_blank" rel="noopener noreferrer">terms and conditions<span class="visually-hidden"> (opens in a new tab)</span></a> and the <a href="privacy.html" target="_blank" rel="noopener noreferrer">privacy notice<span class="visually-hidden"> (opens in a new tab)</span></a>.</span></label>
+<p class="err" id="e-confirm_terms" hidden></p>
+<label class="check"><input type="checkbox" name="confirm_password" value="yes" required data-err="Please agree to give an administrator password" aria-describedby="e-confirm_password"><span>I understand I'll need to give you an administrator password for the job, and I won't email it.</span></label>
+<p class="err" id="e-confirm_password" hidden></p>
+<label class="check"><input type="checkbox" name="confirm_limits" value="yes" required data-err="Please agree that features only available on certain Macs (Apple silicon or T2 chip) won't work" aria-describedby="e-confirm_limits"><span>I understand Apple doesn't endorse this method, and features that need an Apple silicon or T2 chip won't work.</span></label>
+<p class="err" id="e-confirm_limits" hidden></p>
+</fieldset>
+
+<fieldset id="verify-fs">
+<legend>7. Check you're human</legend>
+<p class="hint">This is a quick check that you're a real person and not a bot, so spam can't fill up my bookings. It's run by Cloudflare and takes a second. See the <a href="privacy.html#turnstile" target="_blank" rel="noopener noreferrer">privacy notice<span class="visually-hidden"> (opens in a new tab)</span></a> for what it involves.</p>
+<div class="verify" id="turnstile-box" tabindex="-1"><div class="cf-turnstile" data-sitekey="0x4AAAAAAFnKVzYzdHcRV-hA" data-theme="auto" data-size="flexible" data-callback="neoVerified" data-expired-callback="neoExpired" data-error-callback="neoExpired"></div></div>
+<p class="err" id="e-turnstile" hidden></p>
+</fieldset>
+
+<div class="hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+<input type="hidden" name="package_summary" id="package-summary" value="">
+<input type="hidden" name="total_gbp" id="total-gbp" value="">
+<input type="hidden" name="terms_version" value="27 October 2026">
+<div class="send-row"><button class="btn btn-primary" type="submit" id="send-btn-2">Send booking request</button><p class="small">Sending this doesn't charge you.</p></div>
+</form>
+</div>
+
+<aside class="summary" aria-labelledby="sum-h">
+<h2 id="sum-h">Your price</h2>
+<div aria-live="polite" aria-atomic="true">
+<p class="total" id="est-total">£0</p>
+<ul class="est-lines" id="est-lines"></ul>
+</div>
+<p class="small" id="est-notes"></p>
+<div class="book">
+<button class="btn btn-primary" type="submit" form="pkg-form" id="send-btn" aria-describedby="book-note">Send booking request</button>
+<p class="small" id="book-note">Sending this doesn't charge you. I email you to confirm the price and how to pay.</p>
+<h3 class="next-h">What happens next</h3>
+<ol class="next">
+<li>I email you to confirm what's included and the price.</li>
+<li>You pay by cash or bank transfer.</li>
+<li>I send you my address, and you bring or post your Mac.</li>
+<li>I do the job, test it, and send or hand it back.</li>
+</ol>
+</div>
+</aside>
+</div>
+<script type="application/json" id="pricing-data">{"full": {"price": 120, "includes": ["mac", "backup", "ostest", "care"]}, "items": [{"id": "mac", "label": "Mac software upgrade", "price": 80, "note": "A newer macOS, plus a basic test afterwards."}, {"id": "backup", "label": "Back-up", "price": 20, "needs": "mac", "note": "A full copy of your Mac before anything changes. Add-on."}, {"id": "ostest", "label": "Which macOS suits it best?", "price": 30, "needs": "mac", "note": "Several versions installed and tested on the same drive. Add-on."}, {"id": "care", "label": "Peace-of-mind pack", "price": 15, "needs": "mac", "note": "A full test and 14 days of aftercare. Add-on."}]}</script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="footer-grid">
+<div class="footer-biz">
+<p><strong>Neobitium</strong></p>
+<p>Neobitium is a trading name of Ben Mulliss, a sole trader in Newark, Nottinghamshire.</p>
+
+<p>Email: <a href="mailto:neobitium@outlook.com" data-contact-email>neobitium@outlook.com</a></p>
+<p><a href="about.html">About me</a></p>
+</div>
+<div><h2>Services</h2><ul class="link-list"><li><a href="services.html#mac-software">Mac software upgrade</a></li><li><a href="services.html#backup">Back-up</a></li><li><a href="services.html#macos-test">Which macOS suits it best?</a></li><li><a href="services.html#care">Peace-of-mind pack</a></li><li><a href="package.html">Build your package</a></li></ul></div>
+<div><h2>Legal</h2><ul class="link-list"><li><a href="privacy.html">Privacy notice</a></li><li><a href="terms.html">Terms and conditions</a></li><li><a href="refunds.html">Refunds and cancellation</a></li><li><a href="cookies.html">Cookie notice</a></li><li><a href="accessibility.html">Accessibility</a></li></ul></div>
+</div>
+<p class="small-print">Neobitium is an independent service. It is not affiliated with, endorsed by or sponsored by Apple Inc. or the OpenCore Legacy Patcher project. Mac, macOS, iMac, MacBook Air and MacBook Pro are trademarks of Apple Inc. Other names belong to their owners.</p>
+<p class="small-print">&copy; 2026 Ben Mulliss, trading as Neobitium. Last updated 27 October 2026.</p>
+</div></footer>
+<script src="site.js"></script>
+</body>
+</html>

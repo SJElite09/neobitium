@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sjelite09.github.io/neobitium/sitemap.xml
